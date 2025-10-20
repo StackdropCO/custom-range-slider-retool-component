@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//d/Work/Stackdrop/CustomComponents/new-custom-component/**)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
