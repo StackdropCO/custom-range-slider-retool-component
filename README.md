@@ -133,6 +133,8 @@ Connect a query that returns distribution data in any of these formats:
 
 Set `distributionData` to `{{ query1.dataArray }}`
 
+![As simple as that!](/showcase/Query.jpg)
+
 ### Custom Formatting
 
 Add a custom formatter to display values as currency:
@@ -140,6 +142,20 @@ Add a custom formatter to display values as currency:
 
 Or format as dates using moment:
 - Set `formatterFunction` to `"v => moment.unix(v).format('MMM DD')"`
+
+![A very niche case where the power of the custom formatter shines](/showcase/FormatterFlex.jpg)
+
+### Zero Crossing
+
+In case you have negative to positive range:
+
+![Clearly showing both the negative and positive values](/showcase/ZeroCrossing.jpg)
+
+### Custom Styling
+
+Configure the styling you want:
+
+![Bring your brand](/showcase/CustomColoring.jpg)
 
 ### Using the Selected Range
 
